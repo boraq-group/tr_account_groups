@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="account.group" id="account_group_100">
+            <field name="name">100 KASA</field>
+            <field name="code_prefix_start">100000</field>
+            <field name="code_prefix_end">100999</field>
+        </record>
+        <record model="account.group" id="account_group_101">
+            <field name="name">101 ALINAN ÇEKLER</field>
+            <field name="code_prefix_start">101000</field>
+            <field name="code_prefix_end">101999</field>
+        </record>
+        <record model="account.group" id="account_group_102">
+            <field name="name">102 Bankalar</field>
+            <field name="code_prefix_start">102000</field>
+            <field name="code_prefix_end">102999</field>
+        </record>
+        <record model="account.group" id="account_group_103">
+            <field name="name">103 VERİLEN ÇEKLER VE ÖDEME EMİRLERİ (-)</field>
+            <field name="code_prefix_start">103000</field>
+            <field name="code_prefix_end">103999</field>
+        </record>
+        <record model="account.group" id="account_group_108">
+            <field name="name">108 DİĞER HAZIR DEĞERLER</field>
+            <field name="code_prefix_start">108000</field>
+            <field name="code_prefix_end">108999</field>
+        </record>
+        <record model="account.group" id="account_group_110">
+            <field name="name">110 HİSSE SENETLERİ</field>
+            <field name="code_prefix_start">110000</field>
+            <field name="code_prefix_end">110999</field>
+        </record>
+        <record model="account.group" id="account_group_111">
+            <field name="name">111 ÖZEL KESİM TAHVİL, SENET VE BONOLARI</field>
+            <field name="code_prefix_start">111000</field>
+            <field name="code_prefix_end">111999</field>
+        </record>
+        <record model="account.group" id="account_group_112">
+            <field name="name">112 KAMU KESİMİ TAHVİL, SENET VE BONOLARI 113</field>
+            <field name="code_prefix_start">112000</field>
+            <field name="code_prefix_end">112999</field>
+        </record>
+        <record model="account.group" id="account_group_118">
+            <field name="name">118 DİĞER MENKUL KIYMETLER</field>
+            <field name="code_prefix_start">118000</field>
+            <field name="code_prefix_end">118999</field>
+        </record>
+        <record model="account.group" id="account_group_119">
+            <field name="name">119 MENKUL KIYMETLER DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">119000</field>
+            <field name="code_prefix_end">119999</field>
+        </record>
+        <record model="account.group" id="account_group_120">
+            <field name="name">120 ALICILAR</field>
+            <field name="code_prefix_start">120000</field>
+            <field name="code_prefix_end">120999</field>
+        </record>
+        <record model="account.group" id="account_group_121">
+            <field name="name">121 ALACAK SENETLERİ</field>
+            <field name="code_prefix_start">121000</field>
+            <field name="code_prefix_end">121999</field>
+        </record>
+        <record model="account.group" id="account_group_122">
+            <field name="name">122 ALACAK SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">122000</field>
+            <field name="code_prefix_end">122999</field>
+        </record>
+        <record model="account.group" id="account_group_126">
+            <field name="name">126 VERİLEN DEPOZİTO VE TEMİNATLAR</field>
+            <field name="code_prefix_start">126000</field>
+            <field name="code_prefix_end">126999</field>
+        </record>
+        <record model="account.group" id="account_group_128">
+            <field name="name">128 ŞÜPHELİ TİCARİ ALACAKLAR</field>
+            <field name="code_prefix_start">128000</field>
+            <field name="code_prefix_end">128999</field>
+        </record>
+        <record model="account.group" id="account_group_129">
+            <field name="name">129 ŞÜPHELİ TİCARİ ALACAKLAR KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">129000</field>
+            <field name="code_prefix_end">129999</field>
+        </record>
+        <record model="account.group" id="account_group_131">
+            <field name="name">131 ORTAKLARDAN ALACAKLAR</field>
+            <field name="code_prefix_start">131000</field>
+            <field name="code_prefix_end">131999</field>
+        </record>
+        <record model="account.group" id="account_group_132">
+            <field name="name">132 İŞTİRAKLERDEN ALACAKLAR</field>
+            <field name="code_prefix_start">132000</field>
+            <field name="code_prefix_end">132999</field>
+        </record>
+        <record model="account.group" id="account_group_133">
+            <field name="name">133 BAĞLI ORTAKLIKLARDAN ALACAKLAR</field>
+            <field name="code_prefix_start">133000</field>
+            <field name="code_prefix_end">133999</field>
+        </record>
+        <record model="account.group" id="account_group_135">
+            <field name="name">135 PERSONELDEN ALACAKLAR</field>
+            <field name="code_prefix_start">135000</field>
+            <field name="code_prefix_end">135999</field>
+        </record>
+        <record model="account.group" id="account_group_136">
+            <field name="name">136 DİĞER ÇEŞİTLİ ALACAKLAR</field>
+            <field name="code_prefix_start">136000</field>
+            <field name="code_prefix_end">136999</field>
+        </record>
+        <record model="account.group" id="account_group_137">
+            <field name="name">137 DİĞER ALACAK SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">137000</field>
+            <field name="code_prefix_end">137999</field>
+        </record>
+        <record model="account.group" id="account_group_138">
+            <field name="name">138 ŞÜPHELİ DİĞER ALACAKLAR</field>
+            <field name="code_prefix_start">138000</field>
+            <field name="code_prefix_end">138999</field>
+        </record>
+        <record model="account.group" id="account_group_139">
+            <field name="name">139 ŞÜPHELİ DİĞER ALACAKLAR KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">139000</field>
+            <field name="code_prefix_end">139999</field>
+        </record>
+        <record model="account.group" id="account_group_150">
+            <field name="name">150 İLK MADDE MAL.</field>
+            <field name="code_prefix_start">150000</field>
+            <field name="code_prefix_end">150999</field>
+        </record>
+        <record model="account.group" id="account_group_151">
+            <field name="name">151 YARI MAMULLER</field>
+            <field name="code_prefix_start">151000</field>
+            <field name="code_prefix_end">151999</field>
+        </record>
+        <record model="account.group" id="account_group_152">
+            <field name="name">152 MAMULLER</field>
+            <field name="code_prefix_start">152000</field>
+            <field name="code_prefix_end">152999</field>
+        </record>
+        <record model="account.group" id="account_group_153">
+            <field name="name">153 TİC. MALLAR</field>
+            <field name="code_prefix_start">153000</field>
+            <field name="code_prefix_end">153999</field>
+        </record>
+        <record model="account.group" id="account_group_157">
+            <field name="name">157 DİĞER STOKLAR</field>
+            <field name="code_prefix_start">157000</field>
+            <field name="code_prefix_end">157999</field>
+        </record>
+        <record model="account.group" id="account_group_158">
+            <field name="name">158 STOK DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">158000</field>
+            <field name="code_prefix_end">158999</field>
+        </record>
+        <record model="account.group" id="account_group_159">
+            <field name="name">159 VERİLEN SİPARİŞ AVANSLARI</field>
+            <field name="code_prefix_start">159000</field>
+            <field name="code_prefix_end">159999</field>
+        </record>
+        <record model="account.group" id="account_group_180">
+            <field name="name">180 GELECEK AYLARA AİT GİDERLER</field>
+            <field name="code_prefix_start">180000</field>
+            <field name="code_prefix_end">180999</field>
+        </record>
+        <record model="account.group" id="account_group_181">
+            <field name="name">181 GELİR TAHAKKUKLARI</field>
+            <field name="code_prefix_start">181000</field>
+            <field name="code_prefix_end">181999</field>
+        </record>
+        <record model="account.group" id="account_group_191">
+            <field name="name">191 İNDİRİLECEK KDV</field>
+            <field name="code_prefix_start">191000</field>
+            <field name="code_prefix_end">191999</field>
+        </record>
+        <record model="account.group" id="account_group_192">
+            <field name="name">192 DİĞER KATMA DEĞER VERGİSİ</field>
+            <field name="code_prefix_start">192000</field>
+            <field name="code_prefix_end">192999</field>
+        </record>
+        <record model="account.group" id="account_group_193">
+            <field name="name">193 PEŞİN ÖDENEN VERGİLER VE FONLAR</field>
+            <field name="code_prefix_start">193000</field>
+            <field name="code_prefix_end">193999</field>
+        </record>
+        <record model="account.group" id="account_group_196">
+            <field name="name">196 PERSONEL AVANSLARI</field>
+            <field name="code_prefix_start">196000</field>
+            <field name="code_prefix_end">196999</field>
+        </record>
+        <record model="account.group" id="account_group_197">
+            <field name="name">197 SAYIM VE TESELLÜM NOKSANLARI</field>
+            <field name="code_prefix_start">197000</field>
+            <field name="code_prefix_end">197999</field>
+        </record>
+        <record model="account.group" id="account_group_198">
+            <field name="name">198 DİĞER ÇEŞİTLİ DÖNEN VARLIKLAR</field>
+            <field name="code_prefix_start">198000</field>
+            <field name="code_prefix_end">198999</field>
+        </record>
+        <record model="account.group" id="account_group_199">
+            <field name="name">199 DİĞER DÖNEN VARLIKLAR KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">199000</field>
+            <field name="code_prefix_end">199999</field>
+        </record>
+        <record model="account.group" id="account_group_220">
+            <field name="name">220 ALICILAR</field>
+            <field name="code_prefix_start">220000</field>
+            <field name="code_prefix_end">220999</field>
+        </record>
+        <record model="account.group" id="account_group_221">
+            <field name="name">221 ALACAK SENETLERİ</field>
+            <field name="code_prefix_start">221000</field>
+            <field name="code_prefix_end">221999</field>
+        </record>
+        <record model="account.group" id="account_group_222">
+            <field name="name">222 ALACAK SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">222000</field>
+            <field name="code_prefix_end">222999</field>
+        </record>
+        <record model="account.group" id="account_group_226">
+            <field name="name">226 VERİLEN DEPOZİTO VE TEMİNATLAR</field>
+            <field name="code_prefix_start">226000</field>
+            <field name="code_prefix_end">226999</field>
+        </record>
+        <record model="account.group" id="account_group_229">
+            <field name="name">229 ŞÜPHELİ ALACAKLAR KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">229000</field>
+            <field name="code_prefix_end">229999</field>
+        </record>
+        <record model="account.group" id="account_group_230">
+            <field name="name">230 ORTAKLARDAN ALACAKLAR</field>
+            <field name="code_prefix_start">230000</field>
+            <field name="code_prefix_end">230999</field>
+        </record>
+        <record model="account.group" id="account_group_231">
+            <field name="name">231 İŞTİRAKLERDEN ALACAKLAR</field>
+            <field name="code_prefix_start">231000</field>
+            <field name="code_prefix_end">231999</field>
+        </record>
+        <record model="account.group" id="account_group_232">
+            <field name="name">232 BAĞLI ORTAKLIKLARDAN ALACAKLAR</field>
+            <field name="code_prefix_start">232000</field>
+            <field name="code_prefix_end">232999</field>
+        </record>
+        <record model="account.group" id="account_group_235">
+            <field name="name">235 PERSONELDEN ALACAKLAR</field>
+            <field name="code_prefix_start">235000</field>
+            <field name="code_prefix_end">235999</field>
+        </record>
+        <record model="account.group" id="account_group_236">
+            <field name="name">236 DİĞER ÇEŞİTLİ ALACAKLAR</field>
+            <field name="code_prefix_start">236000</field>
+            <field name="code_prefix_end">236999</field>
+        </record>
+        <record model="account.group" id="account_group_237">
+            <field name="name">237 DİĞER ALACAK SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">237000</field>
+            <field name="code_prefix_end">237999</field>
+        </record>
+        <record model="account.group" id="account_group_239">
+            <field name="name">239 ŞÜPHELİ DİĞER ALACAKLAR KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">239000</field>
+            <field name="code_prefix_end">239999</field>
+        </record>
+        <record model="account.group" id="account_group_240">
+            <field name="name">240 BAĞLI MENKUL KIYMETLER</field>
+            <field name="code_prefix_start">240000</field>
+            <field name="code_prefix_end">240999</field>
+        </record>
+        <record model="account.group" id="account_group_241">
+            <field name="name">241 BAĞLI MENKUL KIYMETLER DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">241000</field>
+            <field name="code_prefix_end">241999</field>
+        </record>
+        <record model="account.group" id="account_group_242">
+            <field name="name">242 İŞTİRAKLER</field>
+            <field name="code_prefix_start">242000</field>
+            <field name="code_prefix_end">242999</field>
+        </record>
+        <record model="account.group" id="account_group_243">
+            <field name="name">243 İŞTİRAKLERE SERMAYE TAAHHÜTLERİ (-)</field>
+            <field name="code_prefix_start">243000</field>
+            <field name="code_prefix_end">243999</field>
+        </record>
+        <record model="account.group" id="account_group_244">
+            <field name="name">244 İŞTİRAKLER SERMAYE PAYLARI DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">244000</field>
+            <field name="code_prefix_end">244999</field>
+        </record>
+        <record model="account.group" id="account_group_245">
+            <field name="name">245 BAĞLI ORTAKLIKLAR</field>
+            <field name="code_prefix_start">245000</field>
+            <field name="code_prefix_end">245999</field>
+        </record>
+        <record model="account.group" id="account_group_246">
+            <field name="name">246 BAĞLI ORTAKLIKLARA SERMAYE TAAHHÜTLERİ (-)</field>
+            <field name="code_prefix_start">246000</field>
+            <field name="code_prefix_end">246999</field>
+        </record>
+        <record model="account.group" id="account_group_247">
+            <field name="name">247 BAĞLI ORTAKLIKLAR SERMAYE PAYLARI DEĞER DÜŞÜKLÜGÜ KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">247000</field>
+            <field name="code_prefix_end">247999</field>
+        </record>
+        <record model="account.group" id="account_group_248">
+            <field name="name">248 DİĞER MALİ DURAN VARLIKLAR</field>
+            <field name="code_prefix_start">248000</field>
+            <field name="code_prefix_end">248999</field>
+        </record>
+        <record model="account.group" id="account_group_249">
+            <field name="name">249 DİĞER MALİ DURAN VARLIKLAR KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">249000</field>
+            <field name="code_prefix_end">249999</field>
+        </record>
+        <record model="account.group" id="account_group_250">
+            <field name="name">250 ARAZİ VE ARSALAR</field>
+            <field name="code_prefix_start">250000</field>
+            <field name="code_prefix_end">250999</field>
+        </record>
+        <record model="account.group" id="account_group_251">
+            <field name="name">251 YER ALTI VE YER ÜSTÜ DÜZENLERİ</field>
+            <field name="code_prefix_start">251000</field>
+            <field name="code_prefix_end">251999</field>
+        </record>
+        <record model="account.group" id="account_group_252">
+            <field name="name">252 BİNALAR</field>
+            <field name="code_prefix_start">252000</field>
+            <field name="code_prefix_end">252999</field>
+        </record>
+        <record model="account.group" id="account_group_253">
+            <field name="name">253 TESİS, MAKİNE VE CİHAZLAR</field>
+            <field name="code_prefix_start">253000</field>
+            <field name="code_prefix_end">253999</field>
+        </record>
+        <record model="account.group" id="account_group_254">
+            <field name="name">254 TAŞITLAR</field>
+            <field name="code_prefix_start">254000</field>
+            <field name="code_prefix_end">254999</field>
+        </record>
+        <record model="account.group" id="account_group_255">
+            <field name="name">255 DEMİRBAŞLAR</field>
+            <field name="code_prefix_start">255000</field>
+            <field name="code_prefix_end">255999</field>
+        </record>
+        <record model="account.group" id="account_group_256">
+            <field name="name">256 DİĞER MADDİ DURAN VARLIKLAR</field>
+            <field name="code_prefix_start">256000</field>
+            <field name="code_prefix_end">256999</field>
+        </record>
+        <record model="account.group" id="account_group_257">
+            <field name="name">257 BİRİKMİŞ AMORTİSMANLAR (-)</field>
+            <field name="code_prefix_start">257000</field>
+            <field name="code_prefix_end">257999</field>
+        </record>
+        <record model="account.group" id="account_group_258">
+            <field name="name">258 YAPILMAKTA OLAN YATIRIMLAR</field>
+            <field name="code_prefix_start">258000</field>
+            <field name="code_prefix_end">258999</field>
+        </record>
+        <record model="account.group" id="account_group_259">
+            <field name="name">259 VERİLEN AVANSLAR</field>
+            <field name="code_prefix_start">259000</field>
+            <field name="code_prefix_end">259999</field>
+        </record>
+        <record model="account.group" id="account_group_260">
+            <field name="name">260 HAKLAR</field>
+            <field name="code_prefix_start">260000</field>
+            <field name="code_prefix_end">260999</field>
+        </record>
+        <record model="account.group" id="account_group_261">
+            <field name="name">261 ŞEREFİYE</field>
+            <field name="code_prefix_start">261000</field>
+            <field name="code_prefix_end">261999</field>
+        </record>
+        <record model="account.group" id="account_group_262">
+            <field name="name">262 KURULUŞ VE ÖRGÜTLENME GİDERLERİ</field>
+            <field name="code_prefix_start">262000</field>
+            <field name="code_prefix_end">262999</field>
+        </record>
+        <record model="account.group" id="account_group_263">
+            <field name="name">263 ARAŞTIRMA VE GELİŞTİRME GİDERLERİ</field>
+            <field name="code_prefix_start">263000</field>
+            <field name="code_prefix_end">263999</field>
+        </record>
+        <record model="account.group" id="account_group_264">
+            <field name="name">264 ÖZEL MALİYETLER</field>
+            <field name="code_prefix_start">264000</field>
+            <field name="code_prefix_end">264000</field>
+        </record>
+        <record model="account.group" id="account_group_267">
+            <field name="name">267 DİĞER MADDİ OLMAYAN DURAN VARLIKLAR</field>
+            <field name="code_prefix_start">267000</field>
+            <field name="code_prefix_end">267999</field>
+        </record>
+        <record model="account.group" id="account_group_268">
+            <field name="name">268 BİRİKMİŞ AMORTİSMANLAR (-)</field>
+            <field name="code_prefix_start">268000</field>
+            <field name="code_prefix_end">268999</field>
+        </record>
+        <record model="account.group" id="account_group_269">
+            <field name="name">269 VERİLEN AVANSLAR</field>
+            <field name="code_prefix_start">269000</field>
+            <field name="code_prefix_end">269999</field>
+        </record>
+        <record model="account.group" id="account_group_271">
+            <field name="name">271 ARAMA GİDERLERİ</field>
+            <field name="code_prefix_start">271000</field>
+            <field name="code_prefix_end">271999</field>
+        </record>
+        <record model="account.group" id="account_group_272">
+            <field name="name">272 HAZIRLIK VE GELİŞTİRME GİDERLERİ</field>
+            <field name="code_prefix_start">272000</field>
+            <field name="code_prefix_end">272999</field>
+        </record>
+        <record model="account.group" id="account_group_277">
+            <field name="name">277 DİĞER ÖZEL TÜKENMEYE TABİ VARLIKLAR</field>
+            <field name="code_prefix_start">277000</field>
+            <field name="code_prefix_end">277999</field>
+        </record>
+        <record model="account.group" id="account_group_278">
+            <field name="name">278 BİRİKMİŞ TÜKENME PAYLARI (-)</field>
+            <field name="code_prefix_start">278000</field>
+            <field name="code_prefix_end">278999</field>
+        </record>
+        <record model="account.group" id="account_group_279">
+            <field name="name">279 VERİLEN AVANSLAR</field>
+            <field name="code_prefix_start">279000</field>
+            <field name="code_prefix_end">279999</field>
+        </record>
+        <record model="account.group" id="account_group_280">
+            <field name="name">280 GELECEK YILLARA AİT GİDERLER</field>
+            <field name="code_prefix_start">280000</field>
+            <field name="code_prefix_end">280999</field>
+        </record>
+        <record model="account.group" id="account_group_281">
+            <field name="name">281 GELİR TAHAKKUKLARI</field>
+            <field name="code_prefix_start">281000</field>
+            <field name="code_prefix_end">281999</field>
+        </record>
+        <record model="account.group" id="account_group_291">
+            <field name="name">291 GELECEK YILLARDA İNDİRİLECEK KATMA DEĞER VERGİSİ</field>
+            <field name="code_prefix_start">291000</field>
+            <field name="code_prefix_end">291999</field>
+        </record>
+        <record model="account.group" id="account_group_292">
+            <field name="name">292 DİĞER KATMA DEĞER VERGİSİ</field>
+            <field name="code_prefix_start">292000</field>
+            <field name="code_prefix_end">292999</field>
+        </record>
+        <record model="account.group" id="account_group_293">
+            <field name="name">293 GELECEK YILLAR İHTİYACI STOKLAR</field>
+            <field name="code_prefix_start">293000</field>
+            <field name="code_prefix_end">293999</field>
+        </record>
+        <record model="account.group" id="account_group_294">
+            <field name="name">294 ELDEN ÇIKARILACAK STOKLAR VE MADDİ DURAN VARLIKLAR</field>
+            <field name="code_prefix_start">294000</field>
+            <field name="code_prefix_end">294999</field>
+        </record>
+        <record model="account.group" id="account_group_297">
+            <field name="name">297 DİĞER ÇEŞİTLİ DURAN VARLIKLAR</field>
+            <field name="code_prefix_start">297000</field>
+            <field name="code_prefix_end">297999</field>
+        </record>
+        <record model="account.group" id="account_group_298">
+            <field name="name">298 STOK DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (-)</field>
+            <field name="code_prefix_start">298000</field>
+            <field name="code_prefix_end">298999</field>
+        </record>
+        <record model="account.group" id="account_group_299">
+            <field name="name">299 BİRİKMİŞ AMORTİSMANLAR (-)</field>
+            <field name="code_prefix_start">299000</field>
+            <field name="code_prefix_end">299999</field>
+        </record>
+        <record model="account.group" id="account_group_300">
+            <field name="name">300 BANKA KREDİLERİ</field>
+            <field name="code_prefix_start">300000</field>
+            <field name="code_prefix_end">300999</field>
+        </record>
+        <record model="account.group" id="account_group_303">
+            <field name="name">303 UZUN VADELİ KREDİLERİN ANAPARA TAKSİTLERİ VE FAİZLERİ</field>
+            <field name="code_prefix_start">303000</field>
+            <field name="code_prefix_end">303999</field>
+        </record>
+        <record model="account.group" id="account_group_304">
+            <field name="name">304 TAHVİL ANAPARA BORÇ, TAKSİT VE FAİZLERİ</field>
+            <field name="code_prefix_start">304000</field>
+            <field name="code_prefix_end">304999</field>
+        </record>
+        <record model="account.group" id="account_group_305">
+            <field name="name">305 ÇIKARILMIŞ BONOLAR VE SENETLER</field>
+            <field name="code_prefix_start">305000</field>
+            <field name="code_prefix_end">305999</field>
+        </record>
+        <record model="account.group" id="account_group_306">
+            <field name="name">306 ÇIKARILMIŞ DİĞER MENKUL KIYMETLER</field>
+            <field name="code_prefix_start">306000</field>
+            <field name="code_prefix_end">306999</field>
+        </record>
+        <record model="account.group" id="account_group_308">
+            <field name="name">308 MENKUL KIYMETLER İHRAÇ FARKI (-)</field>
+            <field name="code_prefix_start">308000</field>
+            <field name="code_prefix_end">308999</field>
+        </record>
+        <record model="account.group" id="account_group_309">
+            <field name="name">309 DİĞER MALİ BORÇLAR</field>
+            <field name="code_prefix_start">309000</field>
+            <field name="code_prefix_end">309999</field>
+        </record>
+        <record model="account.group" id="account_group_320">
+            <field name="name">320 SATICILAR</field>
+            <field name="code_prefix_start">320000</field>
+            <field name="code_prefix_end">320999</field>
+        </record>
+        <record model="account.group" id="account_group_321">
+            <field name="name">321 BORÇ SENETLERİ</field>
+            <field name="code_prefix_start">321000</field>
+            <field name="code_prefix_end">321999</field>
+        </record>
+        <record model="account.group" id="account_group_322">
+            <field name="name">322 BORÇ SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">322000</field>
+            <field name="code_prefix_end">322999</field>
+        </record>
+        <record model="account.group" id="account_group_326">
+            <field name="name">326 ALINAN DEPOZİTO VE TEMİNATLAR</field>
+            <field name="code_prefix_start">326000</field>
+            <field name="code_prefix_end">326999</field>
+        </record>
+        <record model="account.group" id="account_group_329">
+            <field name="name">329 DİĞER TİCARİ BORÇLAR</field>
+            <field name="code_prefix_start">329000</field>
+            <field name="code_prefix_end">329999</field>
+        </record>
+        <record model="account.group" id="account_group_331">
+            <field name="name">331 ORTAKLARA BORÇLAR</field>
+            <field name="code_prefix_start">331000</field>
+            <field name="code_prefix_end">331999</field>
+        </record>
+        <record model="account.group" id="account_group_332">
+            <field name="name">332 İŞTİRAKLERE BORÇLAR</field>
+            <field name="code_prefix_start">332000</field>
+            <field name="code_prefix_end">332999</field>
+        </record>
+        <record model="account.group" id="account_group_333">
+            <field name="name">333 BAĞLI ORTAKLIKLARA BORÇLAR</field>
+            <field name="code_prefix_start">333000</field>
+            <field name="code_prefix_end">333999</field>
+        </record>
+        <record model="account.group" id="account_group_335">
+            <field name="name">335 PERSONELE BORÇLAR</field>
+            <field name="code_prefix_start">335000</field>
+            <field name="code_prefix_end">335999</field>
+        </record>
+        <record model="account.group" id="account_group_337">
+            <field name="name">337 DİĞER BORÇ SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">337000</field>
+            <field name="code_prefix_end">337999</field>
+        </record>
+        <record model="account.group" id="account_group_339">
+            <field name="name">339 DİĞER ÇEŞİTLİ BORÇLAR(1)</field>
+            <field name="code_prefix_start">339000</field>
+            <field name="code_prefix_end">339999</field>
+        </record>
+        <record model="account.group" id="account_group_340">
+            <field name="name">340 ALINAN SİPARİŞ AVANSLARI</field>
+            <field name="code_prefix_start">340000</field>
+            <field name="code_prefix_end">340999</field>
+        </record>
+        <record model="account.group" id="account_group_349">
+            <field name="name">349 ALINAN DİĞER AVANSLAR</field>
+            <field name="code_prefix_start">349000</field>
+            <field name="code_prefix_end">349999</field>
+        </record>
+        <record model="account.group" id="account_group_360">
+            <field name="name">360 ÖDENECEK VERGİ VE FONLAR</field>
+            <field name="code_prefix_start">360000</field>
+            <field name="code_prefix_end">360999</field>
+        </record>
+        <record model="account.group" id="account_group_361">
+            <field name="name">361 ÖDENECEK SOSYAL GÜVENLİK KESİNTİLERİ</field>
+            <field name="code_prefix_start">361000</field>
+            <field name="code_prefix_end">361999</field>
+        </record>
+        <record model="account.group" id="account_group_368">
+            <field name="name">368 VADESİ GEÇMİŞ ERTELENMİŞ VEYA TAKSİTLENDİRİLMİŞ VERGİ VE DİĞER YÜKÜMLÜLÜKLER</field>
+            <field name="code_prefix_start">368000</field>
+            <field name="code_prefix_end">368999</field>
+        </record>
+        <record model="account.group" id="account_group_369">
+            <field name="name">369 ÖDENECEK DİĞER YÜKÜMLÜLÜKLER</field>
+            <field name="code_prefix_start">369000</field>
+            <field name="code_prefix_end">369999</field>
+        </record>
+        <record model="account.group" id="account_group_370">
+            <field name="name">370 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</field>
+            <field name="code_prefix_start">370000</field>
+            <field name="code_prefix_end">370999</field>
+        </record>
+        <record model="account.group" id="account_group_371">
+            <field name="name">371 DÖNEM KÂRININ PEŞİN ÖDENEN VERGİ VE DİĞER YÜKÜMLÜLÜKLERİ (-)</field>
+            <field name="code_prefix_start">371000</field>
+            <field name="code_prefix_end">371999</field>
+        </record>
+        <record model="account.group" id="account_group_372">
+            <field name="name">372 KIDEM TAZMİNATI KARŞILIĞI</field>
+            <field name="code_prefix_start">372000</field>
+            <field name="code_prefix_end">372999</field>
+        </record>
+        <record model="account.group" id="account_group_373">
+            <field name="name">373 MALİYET GİDERLERİ KARŞILIĞI</field>
+            <field name="code_prefix_start">373000</field>
+            <field name="code_prefix_end">373999</field>
+        </record>
+        <record model="account.group" id="account_group_379">
+            <field name="name">379 DİĞER BORÇ VE GİDER KARŞILIKLARI</field>
+            <field name="code_prefix_start">379000</field>
+            <field name="code_prefix_end">379999</field>
+        </record>
+        <record model="account.group" id="account_group_380">
+            <field name="name">380 GELECEK AYLARA AİT GELİRLER</field>
+            <field name="code_prefix_start">380000</field>
+            <field name="code_prefix_end">380999</field>
+        </record>
+        <record model="account.group" id="account_group_381">
+            <field name="name">381 GİDER TAHAKKUKLARI</field>
+            <field name="code_prefix_start">381000</field>
+            <field name="code_prefix_end">381999</field>
+        </record>
+        <record model="account.group" id="account_group_391">
+            <field name="name">391 HESAPLANAN KDV</field>
+            <field name="code_prefix_start">391000</field>
+            <field name="code_prefix_end">391999</field>
+        </record>
+        <record model="account.group" id="account_group_392">
+            <field name="name">392 DİĞER KDV</field>
+            <field name="code_prefix_start">392000</field>
+            <field name="code_prefix_end">392999</field>
+        </record>
+        <record model="account.group" id="account_group_398">
+            <field name="name">398 SAYIM VE TESELLÜM FAZLALARI(1)</field>
+            <field name="code_prefix_start">398000</field>
+            <field name="code_prefix_end">398999</field>
+        </record>
+        <record model="account.group" id="account_group_399">
+            <field name="name">399 DİĞER ÇEŞİTLİ YABANCI KAYNAKLAR</field>
+            <field name="code_prefix_start">399000</field>
+            <field name="code_prefix_end">399999</field>
+        </record>
+        <record model="account.group" id="account_group_400">
+            <field name="name">400 BANKA KREDİLERİ</field>
+            <field name="code_prefix_start">400000</field>
+            <field name="code_prefix_end">400999</field>
+        </record>
+        <record model="account.group" id="account_group_405">
+            <field name="name">405 ÇIKARILMIŞ TAHVİLLER</field>
+            <field name="code_prefix_start">405000</field>
+            <field name="code_prefix_end">405999</field>
+        </record>
+        <record model="account.group" id="account_group_407">
+            <field name="name">407 ÇIKARILMIŞ DİĞER MENKUL KIYMETLER</field>
+            <field name="code_prefix_start">407000</field>
+            <field name="code_prefix_end">407999</field>
+        </record>
+        <record model="account.group" id="account_group_408">
+            <field name="name">408 MENKUL KIYMETLER İHRAÇ FARKI (-)</field>
+            <field name="code_prefix_start">408000</field>
+            <field name="code_prefix_end">408999</field>
+        </record>
+        <record model="account.group" id="account_group_409">
+            <field name="name">409 DİĞER MALİ BORÇLAR</field>
+            <field name="code_prefix_start">409000</field>
+            <field name="code_prefix_end">409999</field>
+        </record>
+        <record model="account.group" id="account_group_420">
+            <field name="name">420 SATICILAR</field>
+            <field name="code_prefix_start">420000</field>
+            <field name="code_prefix_end">420999</field>
+        </record>
+        <record model="account.group" id="account_group_421">
+            <field name="name">421 BORÇ SENETLERİ</field>
+            <field name="code_prefix_start">421000</field>
+            <field name="code_prefix_end">421999</field>
+        </record>
+        <record model="account.group" id="account_group_422">
+            <field name="name">422 BORÇ SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">422000</field>
+            <field name="code_prefix_end">422999</field>
+        </record>
+        <record model="account.group" id="account_group_426">
+            <field name="name">426 ALINAN DEPOZİTO VE TEMİNATLAR</field>
+            <field name="code_prefix_start">426000</field>
+            <field name="code_prefix_end">426999</field>
+        </record>
+        <record model="account.group" id="account_group_429">
+            <field name="name">429 DİĞER TİCARİ BORÇLAR</field>
+            <field name="code_prefix_start">429000</field>
+            <field name="code_prefix_end">429999</field>
+        </record>
+        <record model="account.group" id="account_group_431">
+            <field name="name">431 ORTAKLARA BORÇLAR</field>
+            <field name="code_prefix_start">431000</field>
+            <field name="code_prefix_end">431999</field>
+        </record>
+        <record model="account.group" id="account_group_432">
+            <field name="name">432 İŞTİRAKLERE BORÇLAR</field>
+            <field name="code_prefix_start">432000</field>
+            <field name="code_prefix_end">432999</field>
+        </record>
+        <record model="account.group" id="account_group_433">
+            <field name="name">433 BAĞLI ORTAKLIKLARA BORÇLAR</field>
+            <field name="code_prefix_start">433000</field>
+            <field name="code_prefix_end">433999</field>
+        </record>
+        <record model="account.group" id="account_group_437">
+            <field name="name">437 DİĞER BORÇ SENETLERİ REESKONTU (-)</field>
+            <field name="code_prefix_start">437000</field>
+            <field name="code_prefix_end">437999</field>
+        </record>
+        <record model="account.group" id="account_group_438">
+            <field name="name">438 KAMUYA OLAN ERTELENMİŞ VEYA TAKSİTLENDİRİLMİŞ BORÇLAR</field>
+            <field name="code_prefix_start">438000</field>
+            <field name="code_prefix_end">438999</field>
+        </record>
+        <record model="account.group" id="account_group_439">
+            <field name="name">439 DİĞER ÇEŞİTLİ BORÇLAR</field>
+            <field name="code_prefix_start">439000</field>
+            <field name="code_prefix_end">439999</field>
+        </record>
+        <record model="account.group" id="account_group_440">
+            <field name="name">440 ALINAN SİPARİŞ AVANSLARI</field>
+            <field name="code_prefix_start">440000</field>
+            <field name="code_prefix_end">440999</field>
+        </record>
+        <record model="account.group" id="account_group_449">
+            <field name="name">449 ALINAN DİĞER AVANSLAR</field>
+            <field name="code_prefix_start">449000</field>
+            <field name="code_prefix_end">449999</field>
+        </record>
+        <record model="account.group" id="account_group_472">
+            <field name="name">472 KIDEM TAZMİNATI KARŞILIĞI</field>
+            <field name="code_prefix_start">472000</field>
+            <field name="code_prefix_end">472999</field>
+        </record>
+        <record model="account.group" id="account_group_479">
+            <field name="name">479 DİĞER BORÇ VE GİDER KARŞILIKLARI</field>
+            <field name="code_prefix_start">479000</field>
+            <field name="code_prefix_end">479999</field>
+        </record>
+        <record model="account.group" id="account_group_480">
+            <field name="name">480 GELECEK YILLARA AİT GELİRLER</field>
+            <field name="code_prefix_start">480000</field>
+            <field name="code_prefix_end">480999</field>
+        </record>
+        <record model="account.group" id="account_group_481">
+            <field name="name">481 GİDER TAHAKKUKLARI</field>
+            <field name="code_prefix_start">481000</field>
+            <field name="code_prefix_end">481999</field>
+        </record>
+        <record model="account.group" id="account_group_492">
+            <field name="name">492 GELECEK YILLARA ERTELENEN VEYA TERKİN EDİLEN KATMA DEĞER VERGİSİ</field>
+            <field name="code_prefix_start">492000</field>
+            <field name="code_prefix_end">492999</field>
+        </record>
+        <record model="account.group" id="account_group_493">
+            <field name="name">493 TESİSE KATILMA PAYLARI</field>
+            <field name="code_prefix_start">493000</field>
+            <field name="code_prefix_end">493999</field>
+        </record>
+        <record model="account.group" id="account_group_499">
+            <field name="name">499 DİĞER ÇEŞİTLİ UZUN VADELİ YABANCI KAYNAKLAR</field>
+            <field name="code_prefix_start">499000</field>
+            <field name="code_prefix_end">499999</field>
+        </record>
+        <record model="account.group" id="account_group_500">
+            <field name="name">500 SERMAYE</field>
+            <field name="code_prefix_start">500000</field>
+            <field name="code_prefix_end">500999</field>
+        </record>
+        <record model="account.group" id="account_group_501">
+            <field name="name">501 ÖDENMEMİŞ SERMAYE (-)</field>
+            <field name="code_prefix_start">501000</field>
+            <field name="code_prefix_end">501999</field>
+        </record>
+        <record model="account.group" id="account_group_520">
+            <field name="name">520 HİSSE SENETLERİ İHRAÇ PRİMLERİ</field>
+            <field name="code_prefix_start">520000</field>
+            <field name="code_prefix_end">520999</field>
+        </record>
+        <record model="account.group" id="account_group_521">
+            <field name="name">521 HİSSE SENEDİ İPTAL KÂRLARI</field>
+            <field name="code_prefix_start">521000</field>
+            <field name="code_prefix_end">521999</field>
+        </record>
+        <record model="account.group" id="account_group_522">
+            <field name="name">522 M.D.V. YENİDEN DEĞERLEME ARTIŞLARI</field>
+            <field name="code_prefix_start">522000</field>
+            <field name="code_prefix_end">522999</field>
+        </record>
+        <record model="account.group" id="account_group_523">
+            <field name="name">523 İŞTİRAKLER YENİDEN DEĞERLEME ARTIŞLARI</field>
+            <field name="code_prefix_start">523000</field>
+            <field name="code_prefix_end">523999</field>
+        </record>
+        <record model="account.group" id="account_group_529">
+            <field name="name">529 DİĞER SERMAYE YEDEKLERİ</field>
+            <field name="code_prefix_start">529000</field>
+            <field name="code_prefix_end">529999</field>
+        </record>
+        <record model="account.group" id="account_group_540">
+            <field name="name">540 YASAL YEDEKLER</field>
+            <field name="code_prefix_start">540000</field>
+            <field name="code_prefix_end">540999</field>
+        </record>
+        <record model="account.group" id="account_group_541">
+            <field name="name">541 STATÜ YEDEKLERİ</field>
+            <field name="code_prefix_start">541000</field>
+            <field name="code_prefix_end">541999</field>
+        </record>
+        <record model="account.group" id="account_group_542">
+            <field name="name">542 OLAĞANÜSTÜ YEDEKLER</field>
+            <field name="code_prefix_start">542000</field>
+            <field name="code_prefix_end">542999</field>
+        </record>
+        <record model="account.group" id="account_group_548">
+            <field name="name">548 DİĞER KÂR YEDEKLERİ</field>
+            <field name="code_prefix_start">548000</field>
+            <field name="code_prefix_end">548999</field>
+        </record>
+        <record model="account.group" id="account_group_549">
+            <field name="name">549 ÖZEL FONLAR</field>
+            <field name="code_prefix_start">549000</field>
+            <field name="code_prefix_end">549999</field>
+        </record>
+        <record model="account.group" id="account_group_570">
+            <field name="name">570 GEÇMİŞ YILLAR KÂRLARI</field>
+            <field name="code_prefix_start">570000</field>
+            <field name="code_prefix_end">570999</field>
+        </record>
+        <record model="account.group" id="account_group_580">
+            <field name="name">580 GEÇMİŞ YILLAR ZARARLARI</field>
+            <field name="code_prefix_start">580000</field>
+            <field name="code_prefix_end">580999</field>
+        </record>
+        <record model="account.group" id="account_group_590">
+            <field name="name">590 DÖNEM NET KÂRI</field>
+            <field name="code_prefix_start">590000</field>
+            <field name="code_prefix_end">590999</field>
+        </record>
+        <record model="account.group" id="account_group_591">
+            <field name="name">591 DÖNEM NET ZARARI (-)</field>
+            <field name="code_prefix_start">591000</field>
+            <field name="code_prefix_end">591999</field>
+        </record>
+        <record model="account.group" id="account_group_600">
+            <field name="name">600 Y.İÇİ SATIŞLAR</field>
+            <field name="code_prefix_start">600000</field>
+            <field name="code_prefix_end">600999</field>
+        </record>
+        <record model="account.group" id="account_group_601">
+            <field name="name">601 Y.DIŞI SATIŞLAR</field>
+            <field name="code_prefix_start">601000</field>
+            <field name="code_prefix_end">601999</field>
+        </record>
+        <record model="account.group" id="account_group_602">
+            <field name="name">602 DİĞER GELİRLER</field>
+            <field name="code_prefix_start">602000</field>
+            <field name="code_prefix_end">602999</field>
+        </record>
+        <record model="account.group" id="account_group_610">
+            <field name="name">610 SATIŞTAN İADELER (-)</field>
+            <field name="code_prefix_start">610000</field>
+            <field name="code_prefix_end">610999</field>
+        </record>
+        <record model="account.group" id="account_group_611">
+            <field name="name">611 SATIŞ İSKONTOLARI (-)</field>
+            <field name="code_prefix_start">611000</field>
+            <field name="code_prefix_end">611999</field>
+        </record>
+        <record model="account.group" id="account_group_612">
+            <field name="name">612 DİĞER İNDİRİMLER (-)</field>
+            <field name="code_prefix_start">612000</field>
+            <field name="code_prefix_end">612999</field>
+        </record>
+        <record model="account.group" id="account_group_620">
+            <field name="name">620 SATILAN MAMÜLLER MALİYETİ (-)</field>
+            <field name="code_prefix_start">620000</field>
+            <field name="code_prefix_end">620999</field>
+        </record>
+        <record model="account.group" id="account_group_621">
+            <field name="name">621 SATILAN TİCARİ MALLAR MALİYETİ (-)</field>
+            <field name="code_prefix_start">621000</field>
+            <field name="code_prefix_end">621999</field>
+        </record>
+        <record model="account.group" id="account_group_622">
+            <field name="name">622 SATILAN HİZMET MALİYETİ (-)</field>
+            <field name="code_prefix_start">622000</field>
+            <field name="code_prefix_end">622999</field>
+        </record>
+        <record model="account.group" id="account_group_623">
+            <field name="name">623 DİĞER SATIŞLARIN MALİYETİ (-)</field>
+            <field name="code_prefix_start">623000</field>
+            <field name="code_prefix_end">623999</field>
+        </record>
+        <record model="account.group" id="account_group_630">
+            <field name="name">630 ARAŞTIRMA VE GELİŞTİRME GİDERLERİ (-)</field>
+            <field name="code_prefix_start">630000</field>
+            <field name="code_prefix_end">630999</field>
+        </record>
+        <record model="account.group" id="account_group_631">
+            <field name="name">631 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ</field>
+            <field name="code_prefix_start">631000</field>
+            <field name="code_prefix_end">631999</field>
+        </record>
+        <record model="account.group" id="account_group_632">
+            <field name="name">632 GENEL YÖNETİM GİDERLERİ (-)</field>
+            <field name="code_prefix_start">632000</field>
+            <field name="code_prefix_end">632999</field>
+        </record>
+        <record model="account.group" id="account_group_640">
+            <field name="name">640 İŞTİRAKLERDEN TEMETTÜ GELİRLERİ</field>
+            <field name="code_prefix_start">640000</field>
+            <field name="code_prefix_end">640999</field>
+        </record>
+        <record model="account.group" id="account_group_641">
+            <field name="name">641 BAĞLI ORTAKLIKLARDAN TEMETTÜ GELİRLERİ</field>
+            <field name="code_prefix_start">641000</field>
+            <field name="code_prefix_end">641999</field>
+        </record>
+        <record model="account.group" id="account_group_642">
+            <field name="name">642 FAİZ GELİRLERİ</field>
+            <field name="code_prefix_start">642000</field>
+            <field name="code_prefix_end">642999</field>
+        </record>
+        <record model="account.group" id="account_group_643">
+            <field name="name">643 KOMİSYON GELİRLERİ</field>
+            <field name="code_prefix_start">643000</field>
+            <field name="code_prefix_end">643999</field>
+        </record>
+        <record model="account.group" id="account_group_644">
+            <field name="name">644 KONUSU KALMAYAN KARŞILIKLAR</field>
+            <field name="code_prefix_start">644000</field>
+            <field name="code_prefix_end">644999</field>
+        </record>
+        <record model="account.group" id="account_group_646">
+            <field name="name">646 KAMBİYO KARLARI</field>
+            <field name="code_prefix_start">646000</field>
+            <field name="code_prefix_end">646999</field>
+        </record>
+        <record model="account.group" id="account_group_649">
+            <field name="name">649 FAALİYETLE İLGİLİ DİĞER GELİR VE KÂRLAR</field>
+            <field name="code_prefix_start">649000</field>
+            <field name="code_prefix_end">649999</field>
+        </record>
+        <record model="account.group" id="account_group_652">
+            <field name="name">652 REESKONT FAİZ GİDERLERİ (-)(1)</field>
+            <field name="code_prefix_start">652000</field>
+            <field name="code_prefix_end">652999</field>
+        </record>
+        <record model="account.group" id="account_group_653">
+            <field name="name">653 KOMİSYON GİDERLERİ (-)</field>
+            <field name="code_prefix_start">653000</field>
+            <field name="code_prefix_end">653999</field>
+        </record>
+        <record model="account.group" id="account_group_654">
+            <field name="name">654 KARŞILIK GİDERLERİ (-)</field>
+            <field name="code_prefix_start">654000</field>
+            <field name="code_prefix_end">654999</field>
+        </record>
+        <record model="account.group" id="account_group_656">
+            <field name="name">656 KAMBİYO ZARARLARI(-)</field>
+            <field name="code_prefix_start">656000</field>
+            <field name="code_prefix_end">656999</field>
+        </record>
+        <record model="account.group" id="account_group_659">
+            <field name="name">659 DİĞER GİDER VE ZARARLAR (-)</field>
+            <field name="code_prefix_start">659000</field>
+            <field name="code_prefix_end">659999</field>
+        </record>
+        <record model="account.group" id="account_group_660">
+            <field name="name">660 KISA VADELİ BORÇLANMA GİDERLERİ (-)</field>
+            <field name="code_prefix_start">660000</field>
+            <field name="code_prefix_end">660999</field>
+        </record>
+        <record model="account.group" id="account_group_661">
+            <field name="name">661 UZUN VADELİ BORÇLANMA GİDERLERİ (-)</field>
+            <field name="code_prefix_start">661000</field>
+            <field name="code_prefix_end">661999</field>
+        </record>
+        <record model="account.group" id="account_group_671">
+            <field name="name">671 ÖNCEKİ DÖNEM GELİR VE KÂRLARI</field>
+            <field name="code_prefix_start">671000</field>
+            <field name="code_prefix_end">671999</field>
+        </record>
+        <record model="account.group" id="account_group_679">
+            <field name="name">679 DİĞER OLAĞANDIŞI GELİR VE KÂRLAR</field>
+            <field name="code_prefix_start">679000</field>
+            <field name="code_prefix_end">679999</field>
+        </record>
+        <record model="account.group" id="account_group_680">
+            <field name="name">680 ÇALIŞMAYAN KISIM GİDER VE ZARARLARI (-)</field>
+            <field name="code_prefix_start">680000</field>
+            <field name="code_prefix_end">680999</field>
+        </record>
+        <record model="account.group" id="account_group_681">
+            <field name="name">681 ÖNCEKİ DÖNEM GİDER VE ZARARLARI (-)</field>
+            <field name="code_prefix_start">681000</field>
+            <field name="code_prefix_end">681999</field>
+        </record>
+        <record model="account.group" id="account_group_689">
+            <field name="name">689 DİĞER OLAĞANDIŞI GİDER VE ZARARLAR (-)</field>
+            <field name="code_prefix_start">689000</field>
+            <field name="code_prefix_end">689999</field>
+        </record>
+        <record model="account.group" id="account_group_690">
+            <field name="name">690 DÖNEM KÂRI VEYA ZARARI</field>
+            <field name="code_prefix_start">690000</field>
+            <field name="code_prefix_end">690000</field>
+        </record>
+        <record model="account.group" id="account_group_691">
+            <field name="name">691 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI (-)</field>
+            <field name="code_prefix_start">691000</field>
+            <field name="code_prefix_end">691999</field>
+        </record>
+        <record model="account.group" id="account_group_692">
+            <field name="name">692 DÖNEM NET KÂRI VEYA ZARARI</field>
+            <field name="code_prefix_start">692000</field>
+            <field name="code_prefix_end">692999</field>
+        </record>
+        <record model="account.group" id="account_group_700">
+            <field name="name">700 MALİYET MUHASEBESİ BAĞLANTI HESABI</field>
+            <field name="code_prefix_start">700000</field>
+            <field name="code_prefix_end">700999</field>
+        </record>
+        <record model="account.group" id="account_group_701">
+            <field name="name">701 MALİYET MUHASEBESİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">701000</field>
+            <field name="code_prefix_end">701999</field>
+        </record>
+        <record model="account.group" id="account_group_710">
+            <field name="name">710 DİREKT İLKMADDE VE MALZEME GİDERLERİ</field>
+            <field name="code_prefix_start">710000</field>
+            <field name="code_prefix_end">710999</field>
+        </record>
+        <record model="account.group" id="account_group_711">
+            <field name="name">711 DİREKT İLKMADDE VE MALZEME YANSITMA HESABI</field>
+            <field name="code_prefix_start">711000</field>
+            <field name="code_prefix_end">711999</field>
+        </record>
+        <record model="account.group" id="account_group_712">
+            <field name="name">712 DİREKT İLKMADDE VE MALZEME FİYAT FARKI</field>
+            <field name="code_prefix_start">712000</field>
+            <field name="code_prefix_end">712999</field>
+        </record>
+        <record model="account.group" id="account_group_713">
+            <field name="name">713 DİREKT İLKMADDE VE MALZEME MİKTAR FARKI</field>
+            <field name="code_prefix_start">713000</field>
+            <field name="code_prefix_end">713999</field>
+        </record>
+        <record model="account.group" id="account_group_720">
+            <field name="name">720 DİREKT İŞÇİLİK GİDERLERİ</field>
+            <field name="code_prefix_start">720000</field>
+            <field name="code_prefix_end">720999</field>
+        </record>
+        <record model="account.group" id="account_group_721">
+            <field name="name">721 DİREKT İŞCİLİK GİDERLERİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">721000</field>
+            <field name="code_prefix_end">721999</field>
+        </record>
+        <record model="account.group" id="account_group_722">
+            <field name="name">722 DİREKT İŞÇİLİK ÜCRET FARKLARI</field>
+            <field name="code_prefix_start">722000</field>
+            <field name="code_prefix_end">722999</field>
+        </record>
+        <record model="account.group" id="account_group_723">
+            <field name="name">723 DİREKT İŞÇİLİK SÜRE (ZAMAN) FARKLARI</field>
+            <field name="code_prefix_start">723000</field>
+            <field name="code_prefix_end">723999</field>
+        </record>
+        <record model="account.group" id="account_group_730">
+            <field name="name">730 GENEL ÜRETİM GİDERLERİ</field>
+            <field name="code_prefix_start">730000</field>
+            <field name="code_prefix_end">730999</field>
+        </record>
+        <record model="account.group" id="account_group_731">
+            <field name="name">731 GENEL ÜRETİM GİDERLERİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">731000</field>
+            <field name="code_prefix_end">731999</field>
+        </record>
+        <record model="account.group" id="account_group_732">
+            <field name="name">732 GENEL ÜRETİM GİDERLERİ BÜTÇE FARKLARI</field>
+            <field name="code_prefix_start">732000</field>
+            <field name="code_prefix_end">732999</field>
+        </record>
+        <record model="account.group" id="account_group_733">
+            <field name="name">733 GENEL ÜRETİM GİDERLERİ VERİMLİLİK FARKLARI</field>
+            <field name="code_prefix_start">733000</field>
+            <field name="code_prefix_end">733999</field>
+        </record>
+        <record model="account.group" id="account_group_734">
+            <field name="name">734 GENEL ÜRETİM GİDERLERİ KAPASİTE FARKLARI</field>
+            <field name="code_prefix_start">734000</field>
+            <field name="code_prefix_end">734999</field>
+        </record>
+        <record model="account.group" id="account_group_740">
+            <field name="name">740 HİZMET ÜRETİM MALİYETİ</field>
+            <field name="code_prefix_start">740000</field>
+            <field name="code_prefix_end">740999</field>
+        </record>
+        <record model="account.group" id="account_group_741">
+            <field name="name">741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">741000</field>
+            <field name="code_prefix_end">741999</field>
+        </record>
+        <record model="account.group" id="account_group_742">
+            <field name="name">742 HİZMET ÜRETİM MALİYETİ FARK HESAPLARI</field>
+            <field name="code_prefix_start">742000</field>
+            <field name="code_prefix_end">742999</field>
+        </record>
+        <record model="account.group" id="account_group_750">
+            <field name="name">750 ARAŞTIRMA VE GELİŞTİRME GİDERLERİ</field>
+            <field name="code_prefix_start">750000</field>
+            <field name="code_prefix_end">750999</field>
+        </record>
+        <record model="account.group" id="account_group_751">
+            <field name="name">751 ARAŞTIRMA VE GELİŞTİRME GİDERLERİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">751000</field>
+            <field name="code_prefix_end">751999</field>
+        </record>
+        <record model="account.group" id="account_group_752">
+            <field name="name">752 ARAŞTIRMA VE GELİŞTİRME GİDER FARKLARI</field>
+            <field name="code_prefix_start">752000</field>
+            <field name="code_prefix_end">752999</field>
+        </record>
+        <record model="account.group" id="account_group_760">
+            <field name="name">760 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ</field>
+            <field name="code_prefix_start">760000</field>
+            <field name="code_prefix_end">760999</field>
+        </record>
+        <record model="account.group" id="account_group_761">
+            <field name="name">761 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">761000</field>
+            <field name="code_prefix_end">761999</field>
+        </record>
+        <record model="account.group" id="account_group_762">
+            <field name="name">762 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ FARK HESABI</field>
+            <field name="code_prefix_start">762000</field>
+            <field name="code_prefix_end">762999</field>
+        </record>
+        <record model="account.group" id="account_group_770">
+            <field name="name">770 GENEL YÖNETİM GİDERLERİ</field>
+            <field name="code_prefix_start">770000</field>
+            <field name="code_prefix_end">770999</field>
+        </record>
+        <record model="account.group" id="account_group_771">
+            <field name="name">771 GENEL YÖNETİM GİDERLERİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">771000</field>
+            <field name="code_prefix_end">771999</field>
+        </record>
+        <record model="account.group" id="account_group_772">
+            <field name="name">772 GENEL YÖNETİM GİDER FARKLARI HESABI</field>
+            <field name="code_prefix_start">772000</field>
+            <field name="code_prefix_end">772999</field>
+        </record>
+        <record model="account.group" id="account_group_780">
+            <field name="name">780 FİNANSMAN GİDERLERİ</field>
+            <field name="code_prefix_start">780000</field>
+            <field name="code_prefix_end">780999</field>
+        </record>
+        <record model="account.group" id="account_group_781">
+            <field name="name">781 FİNANSMAN GİDERLERİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">781000</field>
+            <field name="code_prefix_end">781999</field>
+        </record>
+        <record model="account.group" id="account_group_782">
+            <field name="name">782 FİNANSMAN GİDERLERİ FARK HESABI</field>
+            <field name="code_prefix_start">782000</field>
+            <field name="code_prefix_end">782999</field>
+        </record>
+        <record model="account.group" id="account_group_790">
+            <field name="name">790 İLKMADDE VE MALZEME GİDERLERİ</field>
+            <field name="code_prefix_start">790000</field>
+            <field name="code_prefix_end">790999</field>
+        </record>
+        <record model="account.group" id="account_group_791">
+            <field name="name">791 İŞÇİ ÜCRET VE GİDERLERİ</field>
+            <field name="code_prefix_start">791000</field>
+            <field name="code_prefix_end">791999</field>
+        </record>
+        <record model="account.group" id="account_group_792">
+            <field name="name">792 MEMUR ÜCRET VE GİDERLERİ</field>
+            <field name="code_prefix_start">792000</field>
+            <field name="code_prefix_end">792999</field>
+        </record>
+        <record model="account.group" id="account_group_793">
+            <field name="name">793 DIŞARIDAN SAĞLANAN FAYDA VE HİZMETLER</field>
+            <field name="code_prefix_start">793000</field>
+            <field name="code_prefix_end">793999</field>
+        </record>
+        <record model="account.group" id="account_group_794">
+            <field name="name">794 ÇEŞİTLİ GİDERLER</field>
+            <field name="code_prefix_start">794000</field>
+            <field name="code_prefix_end">794999</field>
+        </record>
+        <record model="account.group" id="account_group_795">
+            <field name="name">795 VERGİ, RESİM VE HARÇLAR</field>
+            <field name="code_prefix_start">795000</field>
+            <field name="code_prefix_end">795999</field>
+        </record>
+        <record model="account.group" id="account_group_796">
+            <field name="name">796 AMORTİSMANLAR VE TÜKENME PAYLARI</field>
+            <field name="code_prefix_start">796000</field>
+            <field name="code_prefix_end">796999</field>
+        </record>
+        <record model="account.group" id="account_group_797">
+            <field name="name">797 FİNANSMAN GİDERLERİ</field>
+            <field name="code_prefix_start">797000</field>
+            <field name="code_prefix_end">797999</field>
+        </record>
+        <record model="account.group" id="account_group_798">
+            <field name="name">798 GİDER ÇEŞİTLERİ YANSITMA HESABI</field>
+            <field name="code_prefix_start">798000</field>
+            <field name="code_prefix_end">798999</field>
+        </record>
+        <record model="account.group" id="account_group_799">
+            <field name="name">799 ÜRETİM MALİYET HESABI</field>
+            <field name="code_prefix_start">799000</field>
+            <field name="code_prefix_end">799999</field>
+        </record>
+    </data>
+</odoo>
