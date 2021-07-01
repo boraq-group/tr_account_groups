@@ -14,16 +14,15 @@
 
     # any module necessary for this one to work correctly
     'depends': ['account'],
-    "images" : [],
+    "images": [
+        'static/description/banner.png'
+    ],
 
     # always loaded
     'data': [
         'data/account.group.xml',
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        # 'demo/demo.xml',
-    ],
+
     'application': False,
 }
 
